@@ -323,22 +323,22 @@ function initTextures() {
     return false;
   }
   image0.onload = function () { img_to_tx_0(image0); };
-  image0.src = '../lib/basicafsky.jpg';
+  image0.src = 'lib/basicafsky.jpg';
 
   image1.onload = function () { img_to_tx_1(image1); };
   
-  image1.src = '../lib/floor_texture.png';
+  image1.src = 'lib/floor_texture.png';
   console.log(' texture loaded successfully');
   img_to_tx_1(image1); 
 
   image2.onload = function () { img_to_tx_2(image2); };
-  image2.src = '../lib/stone.png';
+  image2.src = 'lib/stone.png';
 
   image3.onload = function () { img_to_tx_3(image3); };
-  image3.src = '../lib/polished_blackstone_bricks.png';
+  image3.src = 'lib/polished_blackstone_bricks.png';
 
   image4.onload = function () { img_to_tx_4(image4); };
-  image4.src = '../lib/diamond_ore.jpg';
+  image4.src = 'lib/diamond_ore.jpg';
 }
 
 function renderScene() {
