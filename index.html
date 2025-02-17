@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3: mining</title>
+
+</head>
+<h1>Diamond Mining</h1>
+<body onload="main()" id="body">
+    <div class="row">
+        </div>
+        <div class="column">
+            <canvas id="webgl" width="700" height="700">
+                Please use a browser that supports "canvas"
+            </canvas>
+        </div>
+    </div>
+    <div style="position: relative;">
+        <canvas id="webglCanvas"></canvas>
+        <canvas id="textCanvas" style="position: absolute; top: 0; left: 0;"></canvas>
+    </div>
+    
+    <p id="numdot" style="display: inline"></p>
+    <p id="diamonds" style="display: inline"></p>
+    <p>Yesterday you got onto the metro through the backdoor instead of the front. Today you woke up in this cell.
+      You've been told that if you mine 15 diamond blocks you can escape. Although you doubt you will ever be granted
+      true freedom, you might as well try mining.
+
+      Move around with the WASD keys. A diamond block can be placed in front of you with the R key, and you can mine
+      with the F key. The counter goes up everytime you mine a block. 
+    </p>
+    
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-cse160.js"></script>
+    <script src="triangle.js"></script>
+    <script src="cube.js"></script>
+    <script src="camera.js"></script>
+    <script src="asgn3.js"></script>
+</body>
+</html>
